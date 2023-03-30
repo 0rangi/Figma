@@ -1,0 +1,125 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Poppins:ital,wght@0,400;1,500&display=swap');
+
+
+*{
+  border: 0;
+  margin:0;
+outline: 0;
+box-sizing: border-box;
+font-family: 'Poppins',sans-serif;
+font-weight: 600;
+}
+:root {
+--primary: #B0D0DC;
+--secondary: #F2C197;
+--third: #FAF4F4;
+
+}
+
+/* cabeçalho!! */
+
+header {
+  display: flex;
+  width: 100vw;
+height: 7rem;
+
+background: var(--primary);
+background-size: auto;
+;
+}
+
+
+header picture img{
+    position: absolute;
+    top: 0.5rem;
+left: 40rem;
+background-color:var(--primary);
+
+}
+
+/* navegação */
+
+a.inicial{
+left: 75%;
+top: 0.5rem;
+}
+
+a.entrar{
+font-weight: bold;
+font-size: 1.5rem;
+left: 0.6rem;
+}
+
+a.novidades{
+
+  text-decoration: underline var(--secondary);
+}
+
+header nav{
+  display: flex;
+  align-items: center;
+  width: 100%;
+justify-content: right;
+}
+header nav ul{
+list-style-type: none;
+display: flex;
+align-items: center;
+height: 100%;
+}
+
+header nav ul li{
+padding: 1rem;
+height: 100%;
+display: flex;
+align-items: center;
+}
+header nav ul li a{
+text-decoration: none;
+color: black;
+}
+
+header nav ul li:hover{
+text-decoration:underline var(--primary);
+background-color: var(--secondary);
+}
+
+main {
+ min-height: calc(100vh- 7rem);
+}
+
+main section{
+display:flex;
+max-width: 824px;
+margin: 9rem auto;
+}
+
+main section.img img{
+width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
